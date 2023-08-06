@@ -1,0 +1,17 @@
+@tailwind base;
+
+@tailwind components;
+
+@layer components {
+  .heading1 {
+    @apply font-gilroy text-[12.50vw] font-semibold leading-[15.00vw] text-black tablet:text-[4.65vw] tablet:leading-[5.58vw];
+  }
+}
+
+@tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
