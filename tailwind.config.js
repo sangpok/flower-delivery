@@ -5,10 +5,10 @@ export default {
     extend: {
       colors: {
         white: "#FFF",
-        extraLight: "#F5F5F7",
-        lightGray: "#D2D2D7",
+        extralight: "#F5F5F7",
+        lightgray: "#D2D2D7",
         gray: "#808080",
-        darkGray: "#424245",
+        darkgray: "#424245",
         black: "#121212",
         succeess: "#32936F",
         error: "#F55F56",
@@ -25,6 +25,7 @@ export default {
         // Mobile
         m8: "2.50vw",
         m12: "3.75vw",
+        m14: "4.37vw",
         m16: "5.00vw",
         m24: "7.50vw",
         m32: "10.00vw",
@@ -36,6 +37,7 @@ export default {
         // Tablet
         t8: "1.04vw",
         t12: "1.56vw",
+        t14: "1.82vw",
         t16: "2.08vw",
         t24: "3.13vw",
         t32: "4.17vw",
@@ -47,6 +49,7 @@ export default {
         // Desktop
         d8: "0.56vw",
         d12: "0.83vw",
+        d14: "0.97vw",
         d16: "1.11vw",
         d24: "1.67vw",
         d32: "2.22vw",

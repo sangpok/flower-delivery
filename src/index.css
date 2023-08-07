@@ -6,42 +6,55 @@
   .heading1 {
     @apply text-m40 font-medium leading-120 tablet:text-t67 tablet:font-semibold desktop:text-d67;
   }
+  
   .heading2 {
     @apply text-m34 font-medium leading-120 tablet:text-t50 tablet:font-semibold desktop:text-d50;
   }
+  
   .heading3 {
     @apply text-m26 font-normal leading-120 tablet:text-t38 tablet:font-medium desktop:text-d38;
   }
+  
   .heading4 {
     @apply text-m22 font-normal leading-120 tablet:text-t28 tablet:font-medium desktop:text-d28;
   }
+  
   .heading5 {
     @apply text-m18 font-medium leading-120 tablet:text-t21 tablet:font-medium desktop:text-d21;
   }
+  
   .heading6 {
     @apply text-m16 font-medium leading-100 tablet:text-t16 tablet:font-medium tablet:leading-120 desktop:text-d16;
   }
+  
   .subtitle {
     @apply text-m18 font-medium leading-140 tablet:text-t18 tablet:font-medium tablet:leading-120 desktop:text-d18;
   }
+  
   .body {
     @apply text-m16 font-normal leading-140 tablet:text-t16 tablet:font-normal desktop:text-d16;
   }
+  
   .button {
     @apply text-m14 font-medium uppercase leading-100 tablet:text-t16 tablet:font-medium tablet:leading-120 desktop:text-d16;
   }
+  
   .links {
     @apply text-m14 font-medium leading-120 tablet:text-t16 tablet:font-medium desktop:text-d16;
   }
+  
   .overline {
     @apply text-m12 font-medium uppercase leading-120 tablet:text-t14 tablet:font-medium desktop:text-d14;
   }
+  
   .caption {
     @apply text-m14 font-normal leading-120 tablet:text-t14 tablet:font-normal desktop:text-d14;
   }
+  
   .caption-small {
     @apply text-m12 font-medium leading-120 tablet:text-t12 tablet:font-medium desktop:text-d12;
   }
+  
 }
 
 @tailwind utilities;

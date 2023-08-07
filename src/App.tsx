@@ -1,7 +1,12 @@
+import Button from "@Components/Atomic/Buttons/Button";
+
 function App() {
   return (
     <>
-      <h1 className="heading1">Heading1</h1>
+      <Button type="primary" rightIcon={true}>
+        Default Button
+      </Button>
+      {/* <h1 className="heading1">Heading1</h1>
       <h2 className="heading2">Heading2</h2>
       <h3 className="heading3">Heading3</h3>
       <h4 className="heading4">Heading4</h4>
@@ -13,7 +18,7 @@ function App() {
       <a className="links">links</a>
       <p className="overline">Overline</p>
       <p className="caption">caption</p>
-      <p className="caption-small">caption-small</p>
+      <p className="caption-small">caption-small</p> */}
     </>
   );
 }
