@@ -1,3 +1,5 @@
+import plugin from "tailwindcss";
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
@@ -20,9 +22,13 @@ export default {
         mobile: "320px",
         tablet: "768px",
         desktop: "1440px",
+        pointerhover: {
+          raw: "(hover: hover) and (pointer: fine)",
+        },
       },
       spacing: {
         // Mobile
+        m4: "1.25vw",
         m8: "2.50vw",
         m12: "3.75vw",
         m14: "4.37vw",
@@ -35,6 +41,7 @@ export default {
         m80: "25.00vw",
 
         // Tablet
+        t4: "0.52vw",
         t8: "1.04vw",
         t12: "1.56vw",
         t14: "1.82vw",
@@ -47,6 +54,7 @@ export default {
         t80: "10.42vw",
 
         // Desktop
+        d4: "0.27vw",
         d8: "0.56vw",
         d12: "0.83vw",
         d14: "0.97vw",
@@ -98,5 +106,11 @@ export default {
       },
     },
   },
-  plugins: [""],
+  plugins: [
+    // plugin(function ({ addVariant }) {
+    //   addVariant("supportsnotaspectratio", "@supports not (asepct-ratio:1/1)");
+    //   addVariant("hocus", ["&:hover", "&:focus"]);
+    //   addVariant("inverted-colors", "@media (inverted-colors: inverted)");
+    // }),
+  ],
 };
