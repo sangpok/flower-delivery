@@ -104,6 +104,11 @@ export default {
         120: "120%",
         100: "100%",
       },
+      borderWidth: {
+        m1: "0.31vw",
+        t1: "0.13vw",
+        d1: "0.06vw",
+      },
     },
   },
   plugins: [

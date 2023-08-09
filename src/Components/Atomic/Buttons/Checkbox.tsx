@@ -33,7 +33,7 @@ const Checkbox = ({ text, active = true, selected = true }: CheckboxProp) => {
         <input
           disabled={!active}
           className={checkboxStyle}
-          checked={!active ? selected : undefined}
+          defaultChecked={selected}
           type="checkbox"
           id={text}
           name={text}
