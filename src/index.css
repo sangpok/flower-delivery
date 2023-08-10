@@ -58,6 +58,10 @@
   .caption-small {
     @apply text-m12 font-medium leading-120 tablet:text-t12 tablet:font-medium desktop:text-d12;
   }
+
+  .caption-bold {
+    @apply text-m14 font-medium leading-120 tablet:text-t14 tablet:font-medium desktop:text-d14;
+  }
 }
 
 @tailwind utilities;

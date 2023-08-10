@@ -1,4 +1,4 @@
-import plugin from "tailwindcss";
+import plugin from "tailwindcss/plugin";
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -12,7 +12,7 @@ export default {
         gray: "#808080",
         darkgray: "#424245",
         black: "#121212",
-        succeess: "#32936F",
+        success: "#32936F",
         error: "#F55F56",
       },
       fontFamily: {
@@ -112,10 +112,13 @@ export default {
     },
   },
   plugins: [
-    // plugin(function ({ addVariant }) {
-    //   addVariant("supportsnotaspectratio", "@supports not (asepct-ratio:1/1)");
-    //   addVariant("hocus", ["&:hover", "&:focus"]);
-    //   addVariant("inverted-colors", "@media (inverted-colors: inverted)");
-    // }),
+    plugin(function ({ addVariant }) {
+      // addVariant("supportsnotaspectratio", "@supports not (asepct-ratio:1/1)");
+      // addVariant("hocus", ["&:hover", "&:focus"]);
+      // addVariant("inverted-colors", "@media (inverted-colors: inverted)");
+      // addVariant("empty", "&:empty");
+      // addVariant("not", "&:not");
+      addVariant("not-placeholder-shown", "&:not(:placeholder-shown)");
+    }),
   ],
 };
